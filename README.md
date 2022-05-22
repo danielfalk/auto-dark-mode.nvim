@@ -1,5 +1,5 @@
 # auto-dark-mode.nvim
-A Neovim plugin for macOS that automatically changes the editor appearance
+A Neovim plugin for macOS and Gnome 42+ that automatically changes the editor appearance
 based on system settings.
 ![demo](assets/demo.gif?raw=true)
 
@@ -43,5 +43,5 @@ auto_dark_mode.init()
 You can disable `aut-dark-mode.nvim` at runtime via `lua require('aut-dark-mode').disable()`.
 
 ## Requirements
-* macOS
+* macOS or Gnome 42+
 * Neovim
